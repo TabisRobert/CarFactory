@@ -1,8 +1,7 @@
 public class Dealer {
-int a = 1000000;
-int b = 500000;
-    private void price(){
-
+int price;
+    public void price(Producer producer){
+        producer.setPrice(price);
     }
 
     private void addCar(){
