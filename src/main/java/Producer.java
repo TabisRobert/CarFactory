@@ -1,7 +1,7 @@
 public class Producer {
     private int number;
-    private Dealer price;
-    private Client owner;
+    private int price;
+    private String owner;
 
     public int getNumber() {
         return number;
@@ -11,29 +11,29 @@ public class Producer {
         this.number = number;
     }
 
-    public Dealer getPrice() {
+    public int getPrice() {
         return price;
     }
 
-    public void setPrice(Dealer price) {
+    public void setPrice(int price) {
         this.price = price;
     }
 
-    public Client getOwner() {
+    public String getOwner() {
         return owner;
     }
 
-    public void setOwner(Client owner) {
+    public void setOwner(String owner) {
         this.owner = owner;
     }
 
-    public Producer(int number, Dealer price, Client owner) {
+    public Producer(int number, Integer price, String owner) {
         this.number = number;
         this.price = price;
         this.owner = owner;
     }
     public void createCar(){
-        Producer car = new Producer(number,0,);
+        Producer car = new Producer(number,null,null);
 
     }
         
