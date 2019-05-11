@@ -13,7 +13,5 @@ public class Factory {
         Factory car = new Factory(123,321,"Adriam");
         System.out.println(car);
     }
-    public String toString(){
-        return "Nr rejestracyjny  "+this.number +" cena: "+this.price+" właściciel: "+this.owner;
-    }
+
 }
